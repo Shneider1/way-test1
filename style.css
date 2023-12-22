@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.background-img {
+  background: url(./evan-leith-sCFxdZTlsFY-unsplash.jpg) no-repeat center
+    center/cover;
+  height: 100vh;
+  
+}
+/* Header */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .items {
+  margin-top: 7rem;
+  color: #fff;
+  background: #333;
+  height: 600px;
+  width: 700px;
+  border-radius: 10px;
+}
+.items .head {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid #fff;
+}
+.head h1 {
+  line-height: 2;
+}
+.head p {
+  font-weight: bold;
+  margin-right: 1rem;
+  color: #333;
+  background: #0ddcbf;
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+.head .time {
+  background: #333;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+/* Questions */
+
+.questions h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.option-box {
+  color: #fff;
+}
+.option span {
+  font-size: 1.2rem;
+}
+.option {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  margin: 2rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.checker {
+  display: none;
+}
+.option:hover {
+  border-bottom: 1px solid #0ddcbf;
+}
+
+/* True | False Icons */
+.fa-check {
+  color: #05f105;
+}
+.fa-times {
+  color: #ff0023;
+}
+
+/* Next Button */
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+.down p {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+.next-btn {
+  font-size: 1.2rem;
+  background: #0ddcbf;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border: 1px solid #0ddcbf;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.next-btn:hover {
+  background: #25a794;
+  border: 1px solid #fff;
+}
